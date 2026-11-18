@@ -1,0 +1,4 @@
+name: CI
+on: [push]
+jobs:
+test: run-on: ubantu-latest  steps:  -user: actions/checkout@v4 -run:python3 test_app.py
